@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+# React project
+
+React project for **FrontEnd** practice.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,9 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# React project
 
-React project for **FrontEnd** practice.
-
-This Website was made using **HTML, CSS, JS , Express & NodeJs.**
->>>>>>> fb579c7d9ebca3a604debe261973ae5a7e4d6ceb
