@@ -4,6 +4,7 @@ import image from '../assets/images/logo-DH.png';
 import LastMovieInDb from './LastMovieInDb';
 import GenresInDb from './GenresInDb';
 import ContentWrapper from './ContentWrapper';
+import SearchMovies from './SearchMovies';
 import Chart from './Chart';
 import NotFound from './NotFound';
 import {Link, Route, Switch} from 'react-router-dom';
@@ -64,6 +65,16 @@ function SideBar(){
 
                 {/*<!-- Divider -->*/}
                 <hr className="sidebar-divider d-none d-md-block"/>
+
+                {/*<!-- Nav Item - Tables -->*/}
+                <li className="nav-item">
+                    <Link className="nav-link" to="/SearchMovies">
+                        <i className="fas fa-fw fa-search"></i>
+                        <span>Search</span>
+                    </Link>
+                </li>
+
+                
             </ul>
             {/*<!-- End of Sidebar -->*/}
 
@@ -80,6 +91,9 @@ function SideBar(){
                 </Route>
                 <Route path="/TableMovies">
                     <Chart />
+                </Route>
+                <Route path="/SearchMovies">
+                    <SearchMovies />
                 </Route>
                 <Route component={NotFound} />
             </Switch>
